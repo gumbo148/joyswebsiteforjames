@@ -1,0 +1,431 @@
+
+    body {
+        font: 400 15px Lato, sans-serif;
+        line-height: 1.8;
+        color: #818181;
+        background-color: #FFF6C5;
+         background: url('../images/Girl-and-dog-in-a-field.jpg') no-repeat center center fixed; 
+         background-position: top;
+    }
+    
+    h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    
+    h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #303030;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    @font-face{
+        font-family: york;
+        src: url('../fonts/yorkwhiteletter.otf');
+
+    }
+
+    
+    .jumbotron {
+       
+        
+        color: #fff;
+        
+        padding-top: 40px;
+        padding-bottom: 10px;
+        
+        box-shadow: 0px 2px 3px gray;
+        height: 300px;
+        background-color: #FF8E2C;
+
+    }
+    .jumbotron h1{
+        text-transform: uppercase;
+        font-family: york, garamond;
+        font-size: 100px;
+    }
+
+   
+    
+    
+    .bg-grey {
+        background-color: #f6f6f6;
+
+    }
+
+    
+    .logo-small {
+        color: #f4511e;
+        font-size: 50px;
+    }
+    
+    .logo {
+        color: #f4511e;
+        font-size: 200px;
+    }
+    
+    #carousel-custom {
+    margin: 20px auto;
+    
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+    
+
+    .category-main{
+        background-color: transparent;
+        border:none;
+    }
+    
+    .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+    }
+    
+    .item span {
+        font-style: normal;
+    }
+    
+    .panel {
+        
+        border-radius: 0 !important;
+        transition: box-shadow 0.5s;
+        
+        background-color: transparent;
+        
+    }
+    .panel-default{
+        border: none;
+    }
+    
+    .panel:hover {
+        opacity: 0.95;
+    }
+    
+    .panel-footer .btn:hover {
+        border: 1px solid #f4511e;
+        background-color: #fff !important;
+        color: #f4511e;
+    }
+    
+    .panel-heading {
+        color: #fff !important;
+        background-color: #FF8E2C !important;
+       
+        
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 0px 2px 3px gray;
+
+        
+        font-family: york, sans-serif;
+    }
+    
+
+    .panel-heading h1{
+        font-family: york, sans-serif;
+        font-size: 6.4vh;
+        text-transform: uppercase;
+
+
+    }
+
+    .panel-body{
+        padding: 10px;
+        background-color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .panel-footer {
+        background-color: #695D46 !important;
+        box-shadow: 0px 2px 3px gray;
+        border-radius: 10px;
+    }
+    
+    .panel-footer h3 {
+        font-size: 32px;
+    }
+    
+    .panel-footer h4 {
+        color: #aaa;
+        font-size: 14px;
+    }
+    
+    .panel-footer .btn {
+        margin: 15px 0;
+        background-color: #f4511e;
+        color: #fff;
+    }
+    .panel-footer ul{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .navbar {
+        margin-bottom: 0;
+        background-color: #FF732C;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+        font-family: garamond, sans-serif;
+        opacity: .4;
+    }
+    
+    .navbar li a,
+    .navbar .navbar-brand {
+        color: #fff !important;
+    }
+    
+    .navbar-nav li a:hover,
+    .navbar-nav li.active a {
+        color: #f4511e !important;
+        background-color: #fff !important;
+
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+
+    }
+    
+    footer .glyphicon {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #f4511e;
+    }
+    
+    .slideanim {
+        visibility: hidden;
+    }
+    
+    .slide {
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        visibility: visible;
+    }
+    
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(70%);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+        }
+    }
+    
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(70%);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: center;
+            margin: 25px 0;
+        }
+        
+        .btn-lg {
+            width: 100%;
+            margin-bottom: 35px;
+        }
+        
+        
+        .jumbotron h1{
+            font-size: 300%;
+        }
+        .panel-heading h1{
+            font-size: 300%;
+        }
+        
+        .navbar:hover{
+                opacity: 0.9;
+        }
+      
+        body{
+            background: url('../images/dog-with-girl.png') no-repeat center center fixed; 
+            background-attachment: fixed;
+            background-size: fill;
+        }
+
+    }
+    
+    @media screen and (max-width: 480px) {
+        .logo {
+            font-size: 150px;
+        }
+    }
+    
+
+
+    .previous{
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        background-color: #FF8E2C;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        box-shadow: 3px 3px 2px gray;
+        font-family: york, garamond, sans-serif;
+        font-size: 70px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        text-align: left;
+        border-bottom-left-radius: 0px;
+         border-top-left-radius: 0px;
+
+    }
+    a:hover{
+        color: black;
+        text-decoration: none;
+    }
+
+    #related-break{
+        background-color: #FF732C; 
+        border-color: #FF732C;
+        height: 2px;
+    }
+    #related-items{
+        padding-left: 100px;
+        color: white;
+        font-family: garamond;
+        font-size: 50px;
+        margin-bottom: -25px;
+    }
+
+    #product-specs{
+        text-align: left;
+        border-left: 1px solid #f4511e;
+        color: black;
+    }
+
+    .word-break{
+        background-color: #FF732C; 
+        border-color: #FF732C;
+    }
+
+    .jumbo-product{
+
+        height: 200px;
+    }
+    .jumbo-product h1{
+        padding-top: 20px;
+    }
+
+    .col-sm-4, .col-sm-5{
+        border:none;
+
+    }
+    #amazon-button{
+        background-color: #FF732C;
+        box-shadow: 0px 2px 3px gray;
+
+    }
+
+    form{
+        color: black;
+        font-size: 20px;
+        font-family: arial, sans-serif;
+    }
+    th{
+        width: 200px;
+    }
+
+    #banner{
+        color: #FF732C;
+        background-color: white;
+        box-shadow: 0px 2px 3px #FF732C;    
+        padding-bottom: 10px;
+    }
+    #pricing{
+        
+        margin-top: 30px;
+        
+          
+
+        }
+    #rate-stars{
+     font-family: york, garamond; 
+     color: #5E2D00;
+     text-transform: lowercase;
+
+    }
+    .rate-stars-all{
+     font-family: york, garamond; 
+     color: #5E2D00;
+     text-transform: lowercase;
+     font-size: 6.4vh;
+     
+    }
+
+
+   .fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow:hidden;
+}
