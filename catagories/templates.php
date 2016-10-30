@@ -1,10 +1,10 @@
 <?php
 
 function connect(){
-$servername = "mysql.leveluptee.com";
-$username = "levelupteecom";
-$password = "LQxs!RWF";
-$dbname = "leveluptee_com";
+$servername = 
+$username = 
+$password = 
+$dbname = 
 
 // Create connection
 
